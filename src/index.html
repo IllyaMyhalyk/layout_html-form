@@ -1,48 +1,45 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
+
   <body>
-    <h1>HTML Form</h1>
+    <!-- <h1>HTML Form</h1> -->
     <script type="text/javascript" src="./main.js"></script>
-    <form
-      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    >
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
       <fieldset class="personalInf">
         <legend class="info">Personal information</legend>
-        <label for="surnameInput" class="formFild"
-          >Surname:<input type="text" id="surnameInput">
+        <label for="surnameInput" class="formFild">Surname:<input type="text" id="surnameInput">
         </label>
         <label for="nameInput" class="formFild">
-          Name: <input type="text" id="nameInput" 
-                      autocomplete="off"
+          Name: <input type="text" 
+                       id="nameInput" 
+                       autocomplete="off"
                 >
         </label>
-        <label for="numberInput" class="formFild"
-          >How old are you?:
+        <label for="numberInput" class="formFild">How old are you?:
           <input type="number" 
-                id="numberInput" 
-                max="100" 
-                min="1" 
-                value="12"
+                 id="numberInput" 
+                 max="100" 
+                 min="1" 
+                 value="12"
           >
         </label>
-        <label for="dateInput" class="formFild"
-          >Full date of birth: <input type="date" id="dateInput">
+        <label for="dateInput" class="formFild">Full date of birth: 
+          <input type="date" id="dateInput">
         </label>
         <label for="consentInput" class="formFild">
           I accept the term of the agreement:
           <input type="checkbox" 
-                id="consentInput" 
-                required
+                 id="consentInput" 
+                 required
           >
         </label>
       </fieldset>
@@ -52,15 +49,15 @@
         <label for="emailInput" class="formFild">
           Your email:
           <input type="email" 
-                id="emailInput" 
-                value="email@example.com" 
+                 id="emailInput" 
+                 value="email@example.com"
           >
         </label>
         <label for="passInput" class="formFild">
           Password:
           <input type="password" 
-                id="passInput" 
-                minlength="4"
+                 id="passInput" 
+                 minlength="4"
           >
         </label>
       </fieldset>
@@ -70,16 +67,16 @@
         <label for="loveCats" class="formFild">
           Do you love cats?
           <input type="radio" 
-                name="isCatsLoved" 
-                id="loveCats"
+                 name="isCatsLoved" 
+                 id="loveCats"
           >Yes
           <input type="radio" name="isCatsLoved">No
         </label>
         <label for="favColor" class="formFild">
           What is your favorite color?
           <input type="color" 
-                name="favoriteColor" 
-                id="favColor"
+                 name="favoriteColor" 
+                 id="favColor"
           >
         </label>
         <label for="timeToSleep" class="formFild">
@@ -105,12 +102,11 @@
         <div class="addInfo">
           <label for="comm"></label>
           Comments:
-          <textarea
-            type="text"
-            height="100px"
-            id="comm"
-            maxlength="100"
-            autocomplete="off"
+          <textarea type="text" 
+                    height="100px" 
+                    id="comm" 
+                    maxlength="100" 
+                    autocomplete="off"
           >
           </textarea>
         </div>
@@ -126,6 +122,5 @@
         <input type="submit" id="subInput">
       </label>
     </form>
-    
   </body>
 </html>
