@@ -8,37 +8,41 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-    method="post" 
-    target="_blank"
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post" 
+      target="_blank"
     >
       <!-- First field -->
       <fieldset class="field">
         <legend>Personal information</legend>
         <label class="input">
           Surname:
-          <input type="text" 
-          name="surname" 
-          autocomplete="off" 
-          required
+          <input 
+            type="text" 
+            name="surname" 
+            autocomplete="off" 
+            required
           >
         </label>
         <label class="input">
           Name:
-          <input type="text" 
-          name="name"
-          autocomplete="off" 
-          required
+          <input 
+            type="text" 
+            name="name"
+            autocomplete="off" 
+            required
           >
         </label>
         <label class="input">
           How old are You?
-          <input type="number" 
-          name="age" 
-          value="12" 
-          min="1" 
-          max="100" 
-          required
+          <input 
+            type="number" 
+            name="age" 
+            value="12" 
+            min="1" 
+            max="100" 
+            required
           >
         </label>
         <label class="input">
@@ -47,9 +51,10 @@
         </label>
         <label>
           I accept the term of the agreement
-          <input type="checkbox" 
-          name="term" 
-          required
+          <input 
+            type="checkbox" 
+            name="term" 
+            required
           >
         </label>
       </fieldset>
@@ -58,19 +63,21 @@
         <legend>Registration</legend>
         <label class="input">
           E-mail:
-          <input type="email"
-           name="mail" 
-           placeholder="email@example.com" 
-           required
+          <input 
+            type="email"
+            name="mail" 
+            placeholder="email@example.com" 
+            required
           >
         </label>
         <label>
           Password:
-          <input type="password" 
-          name="password" 
-          minlength="6" 
-          maxlength="32" 
-          required
+          <input 
+            type="password" 
+            name="password" 
+            minlength="6" 
+            maxlength="32" 
+            required
           >
         </label>
       </fieldset>
@@ -80,23 +87,25 @@
         <label class="input">
           Do you love cats?
           <label>
-            <input type="radio" 
-            name="pet" 
-            value="yes"
+            <input 
+              type="radio" 
+              name="pet" 
+              value="yes"
             >
             Yes
           </label>
           <label>
-            <input type="radio" 
-            name="pet"
-            value="no"
+            <input 
+              type="radio" 
+              name="pet"
+              value="no"
             >
             No
           </label>
         </label>
         <label class="input">
           What is your favorite color?
-          <input type="color" name="favcolor">
+          <input type="color" name="favColor">
         </label>
         <label class="input">
           What time do you go to bad?
@@ -112,20 +121,22 @@
         </label>
         <label>
           How do you rate our work?
-          <input type="range" 
-          name="workRate" 
-          value="0"
+          <input 
+            type="range" 
+            name="workRate" 
+            value="0"
           >
         </label>
       </fieldset>
       <!-- Fourth field -->
-      <fieldset class="field">
+      <fieldset class="field2">
         <legend>Additional info:</legend>
         <label class="input">
           Comments:
-          <textarea name="comments" 
-          cols="15" 
-          rows="2"
+          <textarea 
+            name="comments" 
+            cols="15" 
+            rows="2"
           >
           </textarea>
         </label>
